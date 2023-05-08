@@ -312,6 +312,45 @@ hr {
     padding: 10px;
 }
 
+.title-category {
+    font-size: 0.75rem;
+    color: #8D8D96;
+}
+
+.title-category:hover {
+    color: #009EF9;
+}
+
+.category-img:hover {
+    opacity: 0.6;
+}
+
+.product-info-top:hover {
+    color: #E60834;
+}
+
+.product-info-top img:hover {
+    opacity: 0.6;
+}
+
+.product-title-category {
+    font-size: 0.8rem;
+    color: #4c4c4c;
+}
+
+.product-title-category:hover {
+    color: #E60834;
+}
+
+.info-detail-product {
+    font-size: 0.75rem;
+    color: #5a5a5a;
+}
+
+.cb-f:hover {
+    opacity: 0.6;
+}
+
 @media only screen and (max-width: 1385px) {
     .container-o {
         width: 100%;
