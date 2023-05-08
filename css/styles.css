@@ -351,6 +351,55 @@ hr {
     opacity: 0.6;
 }
 
+.number-phone {
+    color: #FF066A;
+    font-size: 18px;
+}
+
+.main-info-product {
+    border: 1px solid #E8E8E8;
+}
+
+.pi-link {
+    font-size: 0.75rem;
+    color: #009EF9;
+}
+
+.pi-link:hover {
+    color: #009EF9;
+}
+
+.des-pd {
+    font-size: 0.75rem;
+}
+
+.cro {
+    margin-bottom: 17px;
+}
+
+.price-pd {
+    color: #4e4d4d;
+    font-size: 1.45rem;
+}
+
+.des-sh {
+    font-size: 0.75rem;
+    color: #5a5a5a;
+}
+
+.title-pdi {
+    font-size: 1.35rem;
+    color: #5a5a5a;
+}
+
+.pdt-d {    
+    font-size: 0.78rem;
+}
+
+.pd-dd {
+    font-size: 0.75rem;
+}
+
 @media only screen and (max-width: 1385px) {
     .container-o {
         width: 100%;
