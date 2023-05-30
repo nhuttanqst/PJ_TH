@@ -359,9 +359,9 @@
                     <h4 class="modal-title text-center font-weight-bold">SIGN IN</h4>
                     <p class="m-0 text-center">Please log into your account.</p>
                     <div class="modal-body d-flex flex-column pl-4 pr-4 mb-1">
-                        <input class="i-si" type="email" required title="Please enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address">
-                        <input class="i-si" type="password" required title="Please enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password">
-                        <button class="btn btn-dark1 mt-1">Login</button>
+                        <input id="account" class="i-si" type="email" required title="Please enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Email Address">
+                        <input id="password" class="i-si" type="password" required title="Please enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password">
+                        <button class="btn btn-dark1 mt-1" onclick="checkLogin()">Login</button>
                         <p class="m-0 mt-3 text-center ask-si">Don't have an account? <a href="#" data-toggle="modal" data-target="#signUp">Sign Up</a></p>
                         <a class="text-center mt-1" href="#">Reset password</a>
                     </div>
@@ -456,7 +456,7 @@
                                         <hr class="mt-4 mr-2 cro">
                                         <h3 class="m-0 price-pd mb-3 pt-1">78.500.000 vnđ</h3>
                                         <p class="m-0 des-sh">(Miễn phí hướng dẫn, cài đặt và giao hàng tận nơi)</p>
-                                        <button class="btn btn-dark mt-3 w-98 p-3">Đặt hàng ngay</button>
+                                        <a href="./cart.html"><button class="btn btn-dark mt-3 w-98 p-3">Mua ngay</button></a>
                                     </div>
                                 </div>
                                 <h4 class="m-0 mt-4 ml-2 title-pdi mb-3">Thông số kỹ thuật</h4>
@@ -668,6 +668,7 @@
         </footer>
     </div>
     <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/main.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../bootstrap-4.6.2/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
 </body>
